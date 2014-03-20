@@ -161,6 +161,7 @@ int main(string[] args)
 
     data.flacHeader = readFlacHeader(args[1]);
 
+    // get a newly filled buffer
     data.buffer = readFlacData!AudioSampleType(args[1]);
 
     // or use our own buffer
@@ -168,9 +169,9 @@ int main(string[] args)
     {
         data.buffer = uninitializedArray!(AudioSampleType[][])(
             data.flacHeader.numChannels, cast(size_t)data.flacHeader.samplesPerChannel);
-    }
 
-    readFlacData(args[1], data.buffer);
+        readFlacData(args[1], data.buffer);
+    }
 
     sampleRate = data.flacHeader.sampleRate;
     enforce(data.flacHeader.numChannels == data.channelCount);  // hardcode for now
