@@ -6,7 +6,7 @@ This is a work-in-progress D2 port of the [RtAudio] library.
 
 Note that this may not necessarily be a 1-to-1 port as there are many improvements which are planned and possible.
 
-Homepage: https://github.com/AndrejMitrovic/rtaudiod
+Homepage: https://github.com/AndrejMitrovic/RtAudioD
 
 [RtAudio]: http://www.music.mcgill.ca/~gary/rtaudio/
 
