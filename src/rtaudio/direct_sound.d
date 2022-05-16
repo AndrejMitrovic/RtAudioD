@@ -51,15 +51,15 @@ import std.exception;
 import std.stdio;
 import std.string;
 
-import win32.basetsd;
-import win32.basetyps;
-import win32.mmsystem : timeBeginPeriod, timeEndPeriod;
-import win32.objbase;
-import win32.winbase;
-import win32.windef;
-import win32.winuser;
+import core.sys.windows.basetsd;
+import core.sys.windows.basetyps;
+import core.sys.windows.mmsystem : timeBeginPeriod, timeEndPeriod;
+import core.sys.windows.objbase;
+import core.sys.windows.winbase;
+import core.sys.windows.windef;
+import core.sys.windows.winuser;
 
-import win32.directx.dsound8;
+//import core.sys.windows.directx.dsound8;
 
 import rtaudio.engine;
 import rtaudio.error;
