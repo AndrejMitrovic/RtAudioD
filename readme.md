@@ -1,7 +1,5 @@
 # RtAudioD
 
-![RtAudioD](https://raw.github.com/AndrejMitrovic/rtaudiod/master/screenshots/work_in_progress.png)
-
 This is a work-in-progress D2 port of the [RtAudio] library.
 
 Note that this may not necessarily be a 1-to-1 port as there are many improvements which are planned and possible.
